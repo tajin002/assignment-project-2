@@ -173,3 +173,59 @@ h2{
     font-size: 25px;
     margin-left: 40px;
 }
+/* Media queaties */
+/* for tablate device */
+@media only screen and (max-width:992px) {
+
+             /* top-banner responsive design */
+    .container{
+        width: 734px;
+        height: 398px;
+    }
+    .description-area{
+        width: 316px;
+        height: 276px;
+    }
+    .description-area h1{
+        line-height: 35px;
+        font-size: 35px;
+    }
+    .description-area p{
+        font-size: 14px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+    }
+    .image-area img{
+        width: 81%;
+    }
+    .image-area{
+        width: 323px;
+        height: 340px;
+        margin-left: 10px;
+    }
+    .btn-area{
+        padding: 12px;
+    }
+
+    /* Blogs card section and side bar responsive design */
+    .player-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .btn-block{
+        justify-content: center;
+    }
+
+    /* footer-area part */
+    .end-area{
+        max-width: 1600px;
+        max-height: 500px;
+    }
+    .add-link{
+        position: relative;
+        left: 5%;
+    }
+    .fa-brands{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
