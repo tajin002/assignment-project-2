@@ -229,3 +229,35 @@ h2{
         margin-top: 5%;
     }
 }
+/* Media queaties */
+/* for mobile device */
+@media only screen and (max-width:420px) {
+    .container{
+        width: 334px;
+        height: 472px;
+    }
+    .description-area{
+        width: 258px;
+        height: 178px;
+    }
+    .description-area h1{
+        line-height: 35px;
+        font-size: 35px;
+    }
+    .description-area p{
+        font-size: 14px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+    }
+    .image-area img{
+        width: 50%;
+    }
+    .image-area{
+        width: 233px;
+        height: 245px;
+        margin-left: 10px;
+    }
+    .btn-area{
+        padding: 12px;
+    }
+}
